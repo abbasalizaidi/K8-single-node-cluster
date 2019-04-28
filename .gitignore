@@ -3,5 +3,5 @@ kube_key
 *.retry
 *.tfstate
 *.backup
-
+.terraform
 
