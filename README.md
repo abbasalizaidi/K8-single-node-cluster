@@ -1,9 +1,6 @@
 # Kubernetes single node Cluster Setup
 
-This repo hosts the code to provision single node Kubernetes cluster in AWS using Terraform (IAC) in single terraform apply. 
-
-Note: Ansible proivisioner for terraform is still under consideration and not supported formally by Terraform. This is using terrform provisioners namely remote-exec and local-exec.
-
+This repo hosts the code to provision single node Kubernetes cluster in AWS using Terraform (IAC) in single hit of terraform apply. 
 
 # Prerequisites ( Should be setup on local machine)
   - Ansible ( Follow this link https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html )
@@ -42,4 +39,4 @@ Note: Ansible proivisioner for terraform is still under consideration and not su
 
    ## Boom! You have single node K8 cluster ready.
 
-
+Note: Ansible proivisioner for terraform is still under consideration and not supported formally by Terraform. This code is using terraform provisioners namely remote-exec and local-exec running ansible playbook remotely.
