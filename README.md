@@ -10,6 +10,13 @@ Note: Ansible proivisioner for terraform is still under consideration and not su
   - Git ( Follow this link https://gist.github.com/derhuerst/1b15ff4652a867391f03 )
   - Terraform ( Follow this link https://www.terraform.io/downloads.html )
   
+### Versions:
+
+  - Ubuntu 16.04
+  - Kubectl 1.14
+  - Terraform v0.11.13
+  - Ansible 2.7.6
+  
 
 # Steps
   - Setup the tools mentioned in Prerequisites.
@@ -32,14 +39,6 @@ Note: Ansible proivisioner for terraform is still under consideration and not su
   - Try command 
     - "$ kubectl --insecure-skip-tls-verify=true get nodes"
     
-Versions:
- - Ubuntu 16.04
- - Kubectl 1.14
- - Terraform v0.11.13
- - Ansible 2.7.6
- 
-
-
 
    ## Boom! You have single node K8 cluster ready.
 
