@@ -33,4 +33,4 @@ Note: Ansible proivisioner for terraform is still under consideration and not su
     - "$ kubectl --insecure-skip-tls-verify=true get nodes"
     
     
-   #Boom! You have single node K8 cluster ready.
+   # Boom! You have single node K8 cluster ready.
