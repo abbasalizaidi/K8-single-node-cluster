@@ -34,7 +34,7 @@ This repo hosts the code to provision single node Kubernetes cluster in AWS usin
     
   - Run command to initialize terraform
    
-    - ```terraform init``` 
+    - ``` terraform init``` 
     - ``` terraform plan``` (just a verification step)
     - ``` terraform apply```
   
